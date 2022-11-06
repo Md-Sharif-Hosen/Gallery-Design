@@ -1,6 +1,6 @@
 .gallery{
     /* border: 1px solid red; */
-    background-image: url(../image/bg.jpg);
+    background-image: url("../image/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 992px;
