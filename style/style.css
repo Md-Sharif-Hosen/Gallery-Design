@@ -1,0 +1,267 @@
+.gallery{
+    /* border: 1px solid red; */
+    background-image: url(../image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 992px;
+    height: 680px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+.gallery .img1{
+    /* border: 1px solid red; */
+    height: 265px;
+    width: 337px;
+    position: absolute;
+    z-index: 9;
+    bottom: 231px;
+    left: 319px;
+}
+.gallery .img2{
+    /* border: 1px solid red; */
+    height: 135px;
+    width: 175px;
+    position: absolute;
+    z-index: 96;
+    /* bottom: 78px; */
+    left: 508px;
+    top: 32px;
+}
+.gallery .img3{
+    /* border: 1px solid red; */
+    height: 145px;
+    width: 127px;
+    position: absolute;
+    z-index: 966;
+    top: 21px;
+    left: 346px;
+}
+.gallery .img4{
+    /* border: 1px solid red; */
+    height: 131px;
+    width: 172px;
+    position: absolute;
+    z-index: 988;
+    top: 99px;
+    left: 145px;
+}
+.gallery .img5{
+    /* border: 1px solid red; */
+    height: 131px;
+    width: 283px;
+    position: absolute;
+    z-index: 9888;
+    top: 266px;
+    left: 31px;
+}
+.gallery .img6{
+        /* border: 1px solid red; */
+        height: 144px;
+        width: 203px;
+        position: absolute;
+        z-index: 9999;
+        top: 435px;
+        left: 224px;
+}
+.gallery .img7{
+    /* border: 1px solid red; */
+    height: 127px;
+    width: 170px;
+    position: absolute;
+    z-index: 99999;
+    top: 436px;
+    left: 454px;
+}
+.gallery .img8{
+    /* border: 1px solid red; */
+    height: 181px;
+    width: 141px;
+    position: absolute;
+    z-index: 999999;
+    top: 300px;
+    top: 184px;
+    left: 660px;
+}
+.gallery .img9{
+    /* border: 1px solid red; */
+    height: 149px;
+    width: 212px;
+    position: absolute;
+    z-index: 9999999;
+    top: 500px left;
+    left: 670px;
+    top: 384px;
+}
+.gallery .img10{
+    /* border: 1px solid red; */
+    height: 173px;
+    width: 98px;
+    position: absolute;
+    z-index: 999999999;
+    top: 51px;
+    right: 71px;
+}
+.gallery .img11{
+    /* border: 1px solid red; */
+    height: 117px;
+    width: 112px;
+    position: absolute;
+    z-index: 999999999;
+    top: 252px;
+    right: 55px;
+}
+.gallery .img12{
+    /* border: 1px solid red; */
+    height: 92px;
+    width: 112px;
+    position: absolute;
+    z-index: 999999999;
+    top: 71px;
+    right: 180px;
+}
+.gallery .img13{
+    /* border: 1px solid red; */
+    height: 117px;
+    width: 147px;
+    position: absolute;
+    z-index: 999999999;
+    top: 408px;
+    right: 786px;
+}
+.gallery .img14{
+        /* border: 1px solid red; */
+    /* border: 1px solid red; */
+    height: 202px;
+    height: 197px;
+    width: 252px;
+    position: absolute;
+    z-index: 999999999;
+    top: 215px;
+    right: 376px;
+}
+.gallery .img15{
+       
+    height: 137px;
+    width: 102px;
+    position: absolute;
+    z-index: 999999999;
+    top: 203px;
+    right: 287px;
+    right: 211px;
+}
+.gallery .img16{
+       
+    height: 111px;
+    width: 150px;
+    position: absolute;
+    z-index: 999999999;
+    top: 450px;
+    right: 287px;
+    right: 590px;
+}
+.gallery .img17{
+       
+    height: 107px;
+    width: 95px;
+    position: absolute;
+    z-index: 999999999;
+    top: 38px;
+    right: 287px;
+    right: 534px;
+}
+.gallery .img18{
+       
+    height: 128px;
+    width: 76px;
+    position: absolute;
+    z-index: 999999999;
+    top: 71px;
+    right: 287px;
+    right: 80px;
+}
+.gallery .img19{
+       
+    height: 98px;
+    width: 132px;
+    position: absolute;
+    z-index: 999999999;
+    top: 114px;
+    right: 287px;
+    right: 692px;
+}
+.gallery .img20{
+       
+    height: 104px;
+    width: 132px;
+    position: absolute;
+    z-index: 99999889999;
+    z-index: 9999989999;
+    right: 287px;
+    right: 331px;
+    top: 44px;
+}
+.gallery .img21{
+       
+    height: 94px;
+    width: 128px;
+    position: absolute;
+    z-index: 999999999;
+    top: 451px;
+    right: 287px;
+    right: 387px;
+}
+.gallery .img22{
+       
+    height: 107px;
+    width: 156px;
+    position: absolute;
+    z-index: 999999999;
+    top: 404px;
+    right: 287px;
+    right: 137px;
+}
+.gallery .img23{
+       
+    height: 98px;
+    width: 212px;
+    position: absolute;
+    z-index: 999999999;
+    top: 372px;
+    top: 282px;
+    right: 712px;
+}
+.gallery .img24{
+       
+    height: 87px;
+    width: 113px;
+    position: absolute;
+    z-index: 999999999;
+    /* top: 488px; */
+    top: 423px;
+    right: 803px;
+}
+.gallery .img25{
+       
+    height: 88px;
+    width: 89px;
+    position: absolute;
+    z-index: 999999999;
+    top: 372px;
+    top: 267px;
+    right: 66px;
+}
+.gallery .img26{
+       
+    height: 66px;
+    width: 84px;
+    position: absolute;
+    z-index: 999999999;
+    top: 372px;
+    top: 84px;
+    right: 194px;
+}
+.gallery  img{
+    width: 100%;
+   height: 100%;
+}
