@@ -1,5 +1,6 @@
+/*----
 .gallery{
-    /* border: 1px solid red; */
+   
     background-image: url("../image/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,7 +11,7 @@
     margin: auto;
 }
 .gallery .img1{
-    /* border: 1px solid red; */
+  
     height: 265px;
     width: 337px;
     position: absolute;
@@ -19,17 +20,17 @@
     left: 319px;
 }
 .gallery .img2{
-    /* border: 1px solid red; */
+
     height: 135px;
     width: 175px;
     position: absolute;
     z-index: 96;
-    /* bottom: 78px; */
+
     left: 508px;
     top: 32px;
 }
 .gallery .img3{
-    /* border: 1px solid red; */
+  
     height: 145px;
     width: 127px;
     position: absolute;
@@ -38,7 +39,7 @@
     left: 346px;
 }
 .gallery .img4{
-    /* border: 1px solid red; */
+ 
     height: 131px;
     width: 172px;
     position: absolute;
@@ -47,7 +48,7 @@
     left: 145px;
 }
 .gallery .img5{
-    /* border: 1px solid red; */
+
     height: 131px;
     width: 283px;
     position: absolute;
@@ -56,7 +57,7 @@
     left: 31px;
 }
 .gallery .img6{
-        /* border: 1px solid red; */
+  
         height: 144px;
         width: 203px;
         position: absolute;
@@ -65,7 +66,7 @@
         left: 224px;
 }
 .gallery .img7{
-    /* border: 1px solid red; */
+
     height: 127px;
     width: 170px;
     position: absolute;
@@ -74,7 +75,7 @@
     left: 454px;
 }
 .gallery .img8{
-    /* border: 1px solid red; */
+
     height: 181px;
     width: 141px;
     position: absolute;
@@ -84,7 +85,7 @@
     left: 660px;
 }
 .gallery .img9{
-    /* border: 1px solid red; */
+   
     height: 149px;
     width: 212px;
     position: absolute;
@@ -94,7 +95,7 @@
     top: 384px;
 }
 .gallery .img10{
-    /* border: 1px solid red; */
+  
     height: 173px;
     width: 98px;
     position: absolute;
@@ -103,7 +104,7 @@
     right: 71px;
 }
 .gallery .img11{
-    /* border: 1px solid red; */
+ 
     height: 117px;
     width: 112px;
     position: absolute;
@@ -112,7 +113,7 @@
     right: 55px;
 }
 .gallery .img12{
-    /* border: 1px solid red; */
+   
     height: 92px;
     width: 112px;
     position: absolute;
@@ -121,7 +122,7 @@
     right: 180px;
 }
 .gallery .img13{
-    /* border: 1px solid red; */
+   
     height: 117px;
     width: 147px;
     position: absolute;
@@ -130,8 +131,8 @@
     right: 786px;
 }
 .gallery .img14{
-        /* border: 1px solid red; */
-    /* border: 1px solid red; */
+       
+
     height: 202px;
     height: 197px;
     width: 252px;
@@ -237,7 +238,7 @@
     width: 113px;
     position: absolute;
     z-index: 999999999;
-    /* top: 488px; */
+   
     top: 423px;
     right: 803px;
 }
@@ -261,7 +262,58 @@
     top: 84px;
     right: 194px;
 }
+
+.gallery .frame{
+    overflow: hidden;
+    background-image: url("../image/gallery1.png");
+    background-size: 100% 100%;
+    
+}
 .gallery  img{
     width: 100%;
    height: 100%;
+} **/
+.box {
+    height: 400px;
+    background-color: gray;
+    position: relative;
 }
+
+.box .item {
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    background-image: url("../image/bg.png");
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.box .item .img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 88%;
+    width: 88%;
+    background-size: 100%;
+    overflow: hidden;
+
+}
+
+.box .item1{
+    left: 50px;
+    top: 80px;
+}
+.box .item2{
+    left: 90px;
+    top: 100px;
+}
+.box .item3{
+    left: 100px;
+    top: 130px;
+}  
