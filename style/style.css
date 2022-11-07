@@ -274,11 +274,19 @@
    height: 100%;
 } **/
 .box {
-    height: 780px;
-    background-color: gray;
+    height: 880px;
+    width: 1348px;
+    background-image: url(../image/bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
     position: relative;
 }
-
+.alingment{
+    width: 500px;
+    position: absolute;
+    right: 788px;
+    top: 73px;
+}
 .box .item {
     /* border: 1px solid red; */
     border-radius: 5px;
@@ -308,17 +316,18 @@
 }
 
 .box .item1{
-    left: 465px;
-    top: 256px;
+    left: 455px;
+    top: 88px;
     z-index: 10;
-    /* text-align: center; */
+    width: 118px;
+    height: 185px;
 }
 .box .item2{
-    left: 421px;
-    top: 99px;
+    left: 495px;
+    top: 304px;
     z-index: 12;
-    width: 280px;
-    height: 146px;
+    width: 302px;
+    height: 226px;
 }
 .box .item2 .img{
 
@@ -329,14 +338,18 @@
    
 }
 .box .item3{
-    left: 209px;
-    top: 39px;
-    z-index: 13;
+    left: 269px;
+    top: 268px;
+    z-index: 15;
+    width: 206px;
+    height: 154px;
 }  
 .box .item4{
-    left: 714px;
-    top: 50px;
+    left: 597px;
+    top: 134px;
     z-index: 13;
+    width: 200px;
+    height: 154px;
     
 }  
 .box .item4 .img{
@@ -346,13 +359,12 @@
     background-size: inherit;
 }
 .box .item5{
-    left: 680px;
-    top: 309px;
+    left: 808px;
+    top: 239px;
     z-index: 13;
-    width: 280px;
+    width: 142px;
     height: 200px;
-    border-radius: 30px;
-    
+    border-radius: 30px; 
     
 } 
 .box .item5 .img{
@@ -362,41 +374,59 @@
     
 }
 .box .item6{
-    left: 173px;
-    top: 309px;
-    z-index: 13;
-    width: 280px;
-    height: 200px;
+    left: 109px;
+    top: 430px;
+    z-index: 16;
+    width: 360px;
+    height: 155px;
     border-radius: 30px;
 } 
 .box .item6 .img{
     height: 76%;
     width: 75%;
-    background-size: cover;
-    
+    background-size: inherit;
 }
 .box .item7{
-    left: 676px;
-    top: 524px;
+    left: 831px;
+    top: 447px;
     z-index: 13;
-    width: 305px;
-    height: 226px;
+    width: 201px;
+    height: 189px;
     border-radius: 30px;
     
 } 
 .box .item8{
-    left: 175px;
-    top: 524px;
+    left: 411px;
+    top: 593px;
     z-index: 13;
-    width: 305px;
-    height: 226px;
+    width: 240px;
+    height: 169px;
     border-radius: 30px;
 } 
 .box .item9{
-    left: 494px;
-    top: 524px;
+    left: 660px;
+    top: 544px;
     z-index: 13;
-    width: 166px;
-    height: 222px;
+    width: 128px;
+    height: 148px;
+    border-radius: 30px;
+} 
+.box .item10{
+    left: 974px;
+    top: 320px;
+    z-index: 13;
+    width: 112px;
+    height: 115px;
+    border-radius: 30px;
+} 
+.box .item10 .img{
+    background-size: inherit;
+}
+.box .item11{
+    left: 964px;
+    top: 153px;
+    z-index: 13;
+    width: 123px;
+    height: 154px;
     border-radius: 30px;
 } 
